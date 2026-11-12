@@ -1,0 +1,22 @@
+{
+  "n8n_base": "https://YOUR-INSTANCE.app.n8n.cloud",
+  "data_dir": "~/model-switch-data",
+  "old_model": "gpt-4.1",
+  "agents": {
+    "myagent": {
+      "workflow_id": "PASTE_LIVE_WORKFLOW_ID",
+      "agent_nodes": ["AI Agent"],
+      "model_node": "OpenAI Chat Model",
+      "message_field": "Lead Response",
+      "context_fields": ["AI Memory"],
+      "drop_nodes": [],
+      "keep_nodes": []
+    }
+  },
+  "sandboxes": {
+    "myagent-test": {
+      "agent": "myagent",
+      "webhook_url": "PASTE_THE_URL_build_sandbox_PRINTS"
+    }
+  }
+}

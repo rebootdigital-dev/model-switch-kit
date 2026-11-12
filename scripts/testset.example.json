@@ -1,0 +1,7 @@
+{
+  "execution_ids": ["1001", "1002"],
+  "written": [
+    {"id": "edge-01", "template_execution": "1001", "message": "STOP"},
+    {"id": "edge-02", "template_execution": "1001", "message": "is this a bot?"}
+  ]
+}

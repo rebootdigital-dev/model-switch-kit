@@ -1,0 +1,10 @@
+# your own settings and anything with customer messages never get committed
+scripts/config.json
+triggers.json
+testset.json
+*.jsonl
+data/
+*.zip
+__pycache__/
+.DS_Store
+.env
